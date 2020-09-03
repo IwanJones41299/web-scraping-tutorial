@@ -2,7 +2,7 @@
   "name": "web-scraping-tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "scrapping.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon"
@@ -19,7 +19,9 @@
   "homepage": "https://github.com/IwanJones41299/web-scraping-tutorial#readme",
   "dependencies": {
     "axios": "^0.20.0",
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.4"
   }
 }
